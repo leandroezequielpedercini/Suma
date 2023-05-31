@@ -18,8 +18,6 @@ function total() {
     
 }
 
-
-
  // Boton borrar
 function borrar(){
 formulario.reset("formulario")
