@@ -3,38 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/estyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estyle.css">  
+    
     <title>Document</title>
 </head>
 <body>
-    <form id="formulario" action="formulario " class="formulario">
+    
+    <header class="cabezal">Calcular una suma  </header>
+    <h1>Sumar</h1>
+    <div class="formulario">
+
+        <form id="formulario" action="formulario " >
         
-              <div class="numero1">
+              <div >
             <label class="label" id="labelNumeroUno" for=""></label  >
-           <input  id="inputUno" type="text">
+           <input class="inputNum1 id="inputUno" type="text">
         </div> 
          
-        <div class="numero2">
+        <div >
             <label id="labelNumeroDos"></label>
-            <input id="inputDos" type="text">
+            <input class="inputNum2 id="inputDos" type="text">
        
         </div>
     
         <div class="total">
             <label id="resultado-btr" for=""></label>
-            <input id="resultado" type="text" class="inputNum3">
+            <input class="inputNum3 id="resultado" type="text" " value="0" disabled>
         </div>
 
         <div>
             <input  type="button" value="Resultado" onclick="total()" class="inputNum4">
-        </div>
-        
-        <div>
             <input  id="borrar-btn" type="button" value="Borrar" onclick="borrar()" class="inputNum5">
         </div>
+           
+        </div>
     </form>
+
+    <!-- <div>
+        <img src="/Imagen/logotipo-sumar-plataforma-politica_94.webp" alt="">
+    </div> -->
     
+    <footer class="footer">
+        gsdftñjkaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    </footer>
+</div>
     <script src="/javascript/script.js"></script>
 </body>
 </html>

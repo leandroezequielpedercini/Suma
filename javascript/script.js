@@ -12,9 +12,9 @@ resultadoBtr.innerHTML = "Resultado"
 
 // Boton total
 function total() {
-    const inputUno = (document.getElementById("inputUno")).value
+    const inputUno = (document.getElementById("inputUno")).value 
     const inputDos = (document.getElementById("inputDos")).value
-    const total = (document.getElementById("resultado")).value = Number(inputUno) + Number(inputDos) 
+    const total = (document.getElementById("resultado")).value = Number(inputUno) + Number(inputDos)
     
 }
 
@@ -22,3 +22,4 @@ function total() {
 function borrar(){
 formulario.reset("formulario")
 }
+
