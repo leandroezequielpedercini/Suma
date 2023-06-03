@@ -1,20 +1,22 @@
 *{padding: 0;
     margin: 0;
-      
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .cabezal{
     background-color:rgb(252, 206, 120);
-    font-size: 170%;
-    padding-left: 41.5%;
+    font-size: 120%;
+    padding-left: 43%;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-decoration-line: underline;
     margin-top: 0.5%;
+    
 }
 
 
 h1{
-
+    padding-left: 42.9%;
+    font-size: 350%;
 }
 
 
@@ -73,28 +75,47 @@ h1{
     font-weight: bolder;
     background-color: white ; 
     color: rgb(0, 0, 255);
-    padding-right: 1px;
-    margin-left: 69px;
+    margin-top: -5%;
+    margin-left: 41px;
 
 }
 
 
-.inputNum4{
-    padding: 10px 20px;
+.inputNum4 {
+    padding: 7px 75px;
     margin-top: 50px;
-    
-}
-
-.inputNum5{ 
-    padding: 10px 20px;
-    margin-right:  50px;
-    
+    border: solid 4px ; color: black; 
     }
 
+:hover.inputNum4{ 
+  color:rgb(0, 215, 0);
+  cursor: pointer;
+ 
+}
+
+
+.inputNum5{ 
+    padding: 7px 75px;
+    margin: 40px;
+    border: solid 4px ; color: black;
+    }
+
+:hover.inputNum5{
+    color:rgb(215, 0, 0);
+    cursor: pointer;    
+}
 
 .footer{
     background-color:rgb(252, 206, 120);
-    margin-top: 14%;
+    margin-bottom: 0.4%;
+    padding-left: 9px; 
+    font-size: 30px;
 
- 
+}
+
+
+.imagen-Suma{
+    height: 100%;
+    width: 100%;
+
 }
