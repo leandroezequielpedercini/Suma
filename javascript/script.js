@@ -14,7 +14,7 @@ resultadoBtr.innerHTML = "Resultado"
 function total() {
     const inputUno = (document.getElementById("inputUno")).value 
     const inputDos = (document.getElementById("inputDos")).value
-    const total = (document.getElementById("resultado")).value = Number(inputUno) + Number(inputDos)
+    const total = (document.getElementById("resultado")).value = Number(inputUno) + Number(inputDos) 
     
 }
 
