@@ -15,8 +15,7 @@ function total() {
     const inputUno = (document.getElementById("inputUno")).value 
     const inputDos = (document.getElementById("inputDos")).value
     const total = (document.getElementById("resultado")).value = Number(inputUno) + Number(inputDos) 
-    
-}
+    }
 
  // Boton borrar
 function borrar(){
