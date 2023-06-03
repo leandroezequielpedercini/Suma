@@ -13,12 +13,10 @@
     
 }
 
-
 h1{
     padding-left: 42.9%;
     font-size: 350%;
-}
-
+    }
 
 .formulario{
     padding-left: 30%;
@@ -28,22 +26,18 @@ h1{
     font-size: 260%;    
 }
 
-
 .numero2{
-        margin-top: 1%;
-   
+     margin-top: 1%;
+ 
 }
 
 .numero3{
     padding-left: 500px;
-
-    
 }
 
 .total{
     margin-top: 1%;
 }
-
 
 
 .numero1{
@@ -65,7 +59,6 @@ h1{
     margin-left: 1.7%;
     margin-top: 4%;
     border: solid rgb(49, 49, 49);    
-    
 
 }
 
@@ -82,7 +75,6 @@ h1{
 
 }
 
-
 .inputNum4 {
     padding: 7px 75px;
     margin-top: 50px;
@@ -94,7 +86,6 @@ h1{
   cursor: pointer;
 
 }
-
 
 .inputNum5{ 
     padding: 7px 75px;
@@ -115,7 +106,6 @@ h1{
     font-size: 30px;
 
 }
-
 
 .imagen-Suma{
     height: 100%;
